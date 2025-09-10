@@ -42,6 +42,13 @@ function showOutput(message) {
 
   let add = (a, b) => a + b;
 
+  let mycomplicatedfunction = (x) => {
+    // some complex logic here
+    return x * x;
+    // mehul im having trouble with this function
+  }
+
+
 document.addEventListener('DOMContentLoaded', () => {
     showOutput('DOM fully loaded and parsed');
  
