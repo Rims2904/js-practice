@@ -3,11 +3,6 @@ function showOutput(message) {
 }
 
 
-let greeting = (name) => {
-    return `Hello, ${name}!`;
-}
-
-
  let flipacoin = (num) => {
  let options = ['heads','tails'];
  let heads = 0;
@@ -49,7 +44,7 @@ let greeting = (name) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     showOutput('DOM fully loaded and parsed');
-    showOutput(greeting('world'))
+ 
     // flipacoin(10)
     // playrps()
     // Add more function calls here as needed
