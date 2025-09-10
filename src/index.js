@@ -10,7 +10,5 @@ let greeting = (name) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     showOutput('DOM fully loaded and parsed');
-    showOutput(greeting('Rima'));
-
-    console.log(greeting('Rima'));
+    showOutput(greeting('world'))
 });
