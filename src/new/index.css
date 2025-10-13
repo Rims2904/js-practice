@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(196, 54, 196);
+}
+body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 10px;
+                padding: 20px;
+                background-color: #f0f0f0;
+            }
+            logo {
+                font-size: 36px;
+                margin-bottom: 20px;            
+            }
+            left item {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+            }
+            right item {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+            }
+        
+            search bar {
+                width: 300px;
+                height: 30px;
+                border-radius: 15px;
+                border: 1px solid #ccc;
+                padding: 0 20px;
+                font-size: 16px;
+                outline: none;
+            }
+            button {
+                margin: 10px;
+                background-color: #007BFF;
+                border: none;
+                padding: 10px 20px;
+                font-size: 14px;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+
+            }
+            a {
+                color: #007BFF;
+                text-decoration: none;
+                margin-right: 15px;
+
+            }
+            
